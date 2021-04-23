@@ -3123,6 +3123,11 @@ caseless@~0.12.0:
   resolved "https://registry.yarnpkg.com/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
   integrity sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
 
+cesium@^1.80.0:
+  version "1.80.0"
+  resolved "https://registry.npm.taobao.org/cesium/download/cesium-1.80.0.tgz#811339a383800ac9fd19ccddc2e62cca14626bbf"
+  integrity sha1-gRM5o4OACsn9GczdwuYsyhRia78=
+
 chalk@2.4.2, chalk@^2.0.0, chalk@^2.4.1, chalk@^2.4.2:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
