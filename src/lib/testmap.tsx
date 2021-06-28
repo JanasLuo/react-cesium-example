@@ -4,17 +4,18 @@
  * @Author: luolei
  * @Date: 2021-04-23 11:41:38
  * @LastEditors: luolei
- * @LastEditTime: 2021-04-23 14:47:21
+ * @LastEditTime: 2021-04-23 22:07:32
  */
 import React, { useEffect } from 'react';
+import 'cesium/Build/Cesium/Widgets/widgets.css';
 window.Cesium =
   process.env.NODE_ENV == 'development'
     ? require('cesium/Build/CesiumUnminified/Cesium')
     : require('cesium/Build/Cesium/Cesium');
 (window as any).CESIUM_BASE_URL = window.location.href;
+
 const Map = () => {
   useEffect(() => {
-    debugger;
     console.log(window.Cesium);
     Cesium.Ion.defaultAccessToken =
       'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI2ODRlYzNmMS0yNDIwLTQ2NmMtYTc3Zi0wMzM4NmQ0YjYzMTIiLCJpZCI6MzA5NjgsInNjb3BlcyI6WyJhc3IiLCJnYyJdLCJpYXQiOjE1OTQ2NDk0OTJ9.Zv-IGFXrfy8a1gJmwGBqgXEZAuNKJ-UGcjjDy-Mbass';
